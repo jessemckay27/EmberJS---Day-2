@@ -1,3 +1,8 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+<div class="container">
+  <div class="row">
+    <h1 class="jumbotron"> Welcome to Super Rentals </h1>
+  </div>
+  {{outlet}}
+  {{#link-to 'about' class="test"}}About{{/link-to}}
+  {{#link-to 'contact' class="test" id="testid"}}Click here to contact us.{{/link-to}}
+</div>
